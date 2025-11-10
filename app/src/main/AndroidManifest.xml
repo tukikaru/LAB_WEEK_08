@@ -16,9 +16,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LAB_WEEK_08">
         <service
-            android:name=".NotificationService.kt"
+            android:name=".SecondNotificationService.kt"
             android:enabled="true"
             android:exported="true"></service>
+        <service
+            android:name=".NotificationService.kt"
+            android:enabled="true"
+            android:exported="true" />
         <service
             android:name=".NotificationService"
             android:enabled="true"
